@@ -1,0 +1,23 @@
+{
+    "name": "roukmoute/mon-mono-repo",
+    "description": "Test Mono Repo",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "symplify/monorepo-builder": "^9.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Roukmoute\\MonMonoRepo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mathias STRASSER",
+            "email": "contact@roukmoute.fr"
+        }
+    ]
+}
